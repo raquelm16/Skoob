@@ -145,4 +145,11 @@ form .botao.botao-destaque{
     .sobre{
         align-items: center;
     }
+    .logo{
+        width: 100px;
+    }
+    form{
+        padding: 10px;
+        padding-top: 20px;
+    }
 }
