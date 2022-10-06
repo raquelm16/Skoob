@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    color: #0082c8;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo:hover{
+    opacity: 0.5
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.botao.botao-destaque {
+    background: #0082c8;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.botao.botao-destaque:hover{
+    background-color: #0c5278;
+}
+
+.botao{
+    cursor: pointer;
+}
+
+.sobre {
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+
+article h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #0c5278;
+}
+
+article h2 {
+    color: #0082c8;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+article p {
+    width: 550px;
+}
+
+figcaption {
+   padding-left: 50px;
+}
+
+.redes, footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-bottom: 50px;
+}
+
+footer img, article img{
+    width: 40px;
+    padding-right: 20px;
+}
+
+footer img:hover, article img:hover{
+    opacity: 0.5
+}
+
+form{
+    border: 2px solid #0082c8;
+    border-radius: 13px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    padding-bottom: 4px;
+    font-weight: bold;
+    color: #0c5278;
+}
+
+form input {
+    border: 2px solid #0082c8;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+.sms {
+    border: 2px solid #0082c8;
+    border-radius: 13px;
+}
+
+form .botao.botao-destaque{
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: #0c5278;
+}
+
+/*------MEDIA------*/
+@media(max-width: 1000px) {
+    .sobre{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    article p{
+       width: 300px;
+    }
+    .sobre{
+        align-items: center;
+    }
+}
