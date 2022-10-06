@@ -136,6 +136,9 @@ form .botao.botao-destaque{
         flex-direction: column;
         gap: 40px;
     }
+    form {
+        margin: 40px;
+    }
 }
 
 @media(max-width: 600px){
@@ -148,8 +151,13 @@ form .botao.botao-destaque{
     .logo{
         width: 100px;
     }
+}
+
+@media(max-width: 500px){
     form{
-        padding: 10px;
+        padding: 4px;
         padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
