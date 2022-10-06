@@ -155,9 +155,15 @@ form .botao.botao-destaque{
 
 @media(max-width: 500px){
     form{
+        border: none;
         padding: 4px;
-        padding-top: 20px;
+        padding-left: 40px;
+    }
+    form input {
+        padding: 10px;
+    }
+    form label {
+        padding: 1px;
         padding-left: 10px;
-        padding-right: 10px;
     }
 }
